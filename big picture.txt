@@ -1,0 +1,9 @@
+[Listen, look, and gotcha: mobile social communication on edge devices by wireless grounding]
+
+I think the whole picture of the project might be as follows: 
+The first component is vision-based. First, we could explore and then deploy an existing sota human (pose) detection/tracking algorithm on cell phone (or AR/VR device). The requirements include: real-time on CPU, multiple object tracking, etc. Second, given the detected object, we leverage a pretrained human/object attribute extraction network to obtain the properties of each individual. The attribute extracted could be explicit information such as gender, color, hair style, wearings, AND visual representation by CNN. The whole system could be implemented by any DNN toolkits like pytorch or tensorflow.
+
+
+The other part of the system is based on mobile computing over new wireless (e.g., sound, light, IMU, and bluetooth) carried by each individual in the camera. The wireless sensors will keep broadcasting wireless signals. The signals could contain any information like ID (name, gender and wearings), moving patterns (via IMU or bluetooth), and other contents (ads or posts) they want to send. Once we receive the signals, we could use many fancy machine learning methods to match the signals and objects in the camera view, resulting knowing "which" person is sending "what" information from "where".
+
+Finally, in our mobile social communication "ecosystem", anyone could broadcast information or try to receive information from others. Further collaboration is also cool. Everyone can "hear" the wireless signals and "see" the objects and then "match and catch" what they are interested in.
