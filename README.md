@@ -2,7 +2,7 @@
 This is an Android Application that aims at indoor localization with bluetooth and inertial sensor.
 
 # Current work
-able to transmmit infomation via bluetooth
+able to transmmit infomation via bluetooth  
 able to get motion sensor data and orientation based on google api
 
 # Current problem
